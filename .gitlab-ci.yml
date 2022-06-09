@@ -25,6 +25,7 @@ pages:
   only:
     - master
   script:
+    - echo "$SSH_KNOWN_HOSTS" >> /.ssh/known_hosts
     - apk add bash
     - pip install -r requirements.txt -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
     - mkdocs build -d public # build to public path
