@@ -27,9 +27,7 @@ pages:
   only:
     - master
   script:
-    - echo $citoken
-    - mkdir -p /root/.ssh/
-    - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+    - eval sed 's/yjXVPD6vyDFkC6fTsnWS/$GH_TOKEN/g' -f mkdocs.yml > mkdocs.yml
     - apk add bash
     - pip install mkdocs-multirepo-plugin -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
     - mkdocs build -d public # build to public path
