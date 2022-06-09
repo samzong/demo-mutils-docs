@@ -27,7 +27,7 @@ pages:
   only:
     - master
   script:
-    - echo "$SSH_KNOWN_HOSTS"
+    - echo $citoken
     - mkdir -p /root/.ssh/
     - echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
     - apk add bash
