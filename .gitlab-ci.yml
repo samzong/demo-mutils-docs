@@ -25,6 +25,7 @@ pages:
   only:
     - master
   script:
+    - pip install mkdocs-multirepo-plugin
     - mkdocs build -d public # build to public path
   artifacts:
     paths:
