@@ -11,10 +11,10 @@ theme:
 
 plugins:
   - search:
-    lang:
-      - en
-      - jp
-    separator: '[\s\u200b\-]'
+      separator: '[\s\u200b\-]'
+      lang:
+        - en
+        - jp
   - multirepo:
       # (optional) tells multirepo to cleanup the temporary directory after site is built.
       cleanup: true
