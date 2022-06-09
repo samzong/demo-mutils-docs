@@ -29,7 +29,7 @@ pages:
   script:
     - eval sed -i -e 's/yjXVPD6vyDFkC6fTsnWS/$GH_TOKEN/g' mkdocs.yml
     - apk add bash
-    - pip install mkdocs-multirepo-plugin -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+    - pip install mkdocs-multirepo-plugin jieba -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
     - mkdocs build -d public # build to public path
   artifacts:
     paths:

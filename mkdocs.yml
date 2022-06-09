@@ -6,9 +6,15 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
+    - search.highlight
+    - search.suggest
 
 plugins:
-  - search
+  - search:
+    lang:
+      - en
+      - jp
+    separator: '[\s\u200b\-]'
   - multirepo:
       # (optional) tells multirepo to cleanup the temporary directory after site is built.
       cleanup: true
