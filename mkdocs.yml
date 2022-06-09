@@ -1,0 +1,36 @@
+site_name: My Docs
+theme:
+  name: material
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+
+plugins:
+  - search
+  - multirepo:
+      # (optional) tells multirepo to cleanup the temporary directory after site is built.
+      cleanup: true
+      repos:
+        - section: Kpanda
+          import_url: 'git@gitlab.daocloud.cn:ndx/engineering/kpanda.git'
+          docs_dir: docs/honkit/zh/* # glob
+        - section: ghippo
+          import_url: 'git@gitlab.daocloud.cn:ndx/ghippo.git'
+          docs_dir: docs/honkit/zh/* # glob
+        - section: Skoala
+          import_url: 'git@gitlab.daocloud.cn:ndx/skoala.git?branch=main'
+          docs_dir: docs/honkit/zh_cn/* # glob
+        - section: Insight
+          import_url: 'git@gitlab.daocloud.cn:ndx/engineering/insight/insight.git?branch=main'
+          docs_dir: docs/book/zh/* # glob
+        - section: mSpider
+          import_url: 'git@gitlab.daocloud.cn:ndx/mspider.git?branch=main'
+          docs_dir: docs/honkit/zh/* # glob
+        - section: Amamba
+          import_url: 'git@gitlab.daocloud.cn:ndx/amamba.git?branch=main'
+          docs_dir: docs/honkit/zh/* # glob
+        - section: MCamel
+          import_url: 'git@gitlab.daocloud.cn:ndx/mcamel/mcamel-rabbitmq.git?branch=main'
+          docs_dir: docs/honkit/zh/* # glob
