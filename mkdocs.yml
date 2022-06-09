@@ -37,3 +37,6 @@ plugins:
         - section: MCamel
           import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/mcamel/mcamel-rabbitmq.git?branch=main'
           docs_dir: docs/honkit/zh/*
+        - section: Product Research
+          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/product/product-research-document.git?branch=master'
+          docs_dir: docs/*
