@@ -57,10 +57,10 @@ plugins:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
-  - 
+  - extra/zoom_image.js
 
 extra_css:
-  - 
+  - extra/custom.css
 
 markdown_extensions:
   - admonition
