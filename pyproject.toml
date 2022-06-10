@@ -8,6 +8,8 @@ authors = ["samzong.lu <samzong.lu@gmail.com>"]
 python = "^3.8"
 mkdocs-material = "^8.3.3"
 mkdocs-multirepo-plugin = "^0.3.7"
+jieba = "^0.42.1"
+mkdocs-minify-plugin = "^0.5.0"
 
 [tool.poetry.dev-dependencies]
 

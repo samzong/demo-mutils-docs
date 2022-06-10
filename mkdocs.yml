@@ -1,6 +1,10 @@
 site_name: DCE 5.0
+copyright: Copyright &copy; 2016 - 2020 DaoCloud
+
 theme:
   name: material
+  language: zh
+  include_homepage_in_sidebar: true
 
   features:
     - navigation.tabs
@@ -8,10 +12,20 @@ theme:
     - navigation.top
     - search.highlight
     - search.suggest
+    - search.share
+    - content.code.annotate
 
 plugins:
   - search:
-      separator: '[\s\u200b\-]'
+      separator: '[\\s\\u200b\\-]'
+
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+
   - multirepo:
       # (optional) tells multirepo to cleanup the temporary directory after site is built.
       cleanup: true
@@ -40,3 +54,51 @@ plugins:
         - section: Product Research
           import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/product/product-research-document.git?branch=master'
           docs_dir: docs/*
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - tables
+
+  - toc:
+      permalink: true
+      title: 导航
+      toc_depth: 5
+  
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - pymdownx.arithmatex:
+      generic: true
