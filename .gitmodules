@@ -1,8 +1,8 @@
 [submodule "modules/skoala"]
 	path = modules/skoala
-	url = ../../ndx/skoala.git
+	url = ../../skoala.git
 	branch = docsite
 [submodule "modules/insight"]
 	path = modules/insight
-	url = ../../ndx/engineering/insight/insight.git
+	url = ../../engineering/insight/insight.git
 	branch = docsite
