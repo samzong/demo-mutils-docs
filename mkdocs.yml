@@ -85,8 +85,8 @@ nav:
   - 产品介绍: index.md
   - 快速入门: 01-mkdocs-material.md
   - 安装手册: install.md
-  - 云容器管理: '!include modules/mspider/docs/honkit/zh/pages.yml'
+  - 云容器管理: '!include modules/kpanda/docs/honkit/zh/pages.yml'
   - 微服务引擎: '!include modules/skoala/docs/pages.yml'
   - 可观测配置: '!include modules/insight/docs/book/zh/pages.yml'
   - 服务网格: '!include modules/mspider/docs/honkit/zh/pages.yml'
-  - 应用工作台: '!include modules/mspider/docs/honkit/zh/pages.yml'
+  - 应用工作台: '!include modules/amamba/docs/honkit/zh/pages.yml'
