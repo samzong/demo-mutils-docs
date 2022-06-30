@@ -22,3 +22,7 @@
 	path = modules/kubean
 	url = ../../engineering/kubean.git
 	branch = hui.wu-gitpages
+[submodule "modules/ghippo"]
+	path = modules/ghippo
+	url = ../../ghippo.git
+	branch = docsite
