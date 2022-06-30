@@ -85,5 +85,7 @@ nav:
   - Intro: index.md
   - Getting Started: 01-mkdocs-material.md
   - Skoala: '!include modules/skoala/docs/pages.yml'
-  - Insight: '!include modules/insight/docs/honkit/zh/pages.yml'
+  - Insight: '!include modules/insight/docs/book/zh/pages.yml'
   - mspider: '!include modules/mspider/docs/honkit/zh/pages.yml'
+  - kpanda: '!include modules/mspider/docs/honkit/zh/pages.yml'
+  - amamba: '!include modules/mspider/docs/honkit/zh/pages.yml'
