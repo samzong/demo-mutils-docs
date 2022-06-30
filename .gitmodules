@@ -10,3 +10,11 @@
 	path = modules/mspider
 	url = ../../mspider.git
 	branch = docsite
+[submodule "modules/kpanda"]
+	path = modules/kpanda
+	url = ../../engineering/kpanda.git
+	branch = docsite
+[submodule "modules/amamba"]
+	path = modules/amamba
+	url = ../../amamba.git
+	branch = docsite
