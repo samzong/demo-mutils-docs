@@ -83,7 +83,7 @@ markdown_extensions:
 # nav 文档站导航
 
 nav:
-  - 首页:
+  - 首页
   - 帮助文档:
     - 产品介绍: index.md
     - 快速入门: 01-mkdocs-material.md
@@ -95,8 +95,8 @@ nav:
     - 服务网格: '!include modules/mspider/docs/honkit/zh/pages.yml'
     - 应用工作台: '!include modules/amamba/docs/honkit/zh/pages.yml'
     - Kubean: '!include modules/kubean/docs/honkit/zh/pages.yml'
-  - 博客:
-  - 视频:
-  - 用户论坛:
-  - 开源社区:
+  - 博客
+  - 视频
+  - 用户论坛
+  - 开源社区
   - DaoCloud 官网: https://www.daocloud.io/
