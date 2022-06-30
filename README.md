@@ -5,7 +5,7 @@
 - 更新 支持各种姿势的自定义目录能力
 - 更新 采用 git submodule 来关于所有 repo
 - 优化 gitlab-ci.yaml 采用相对路径拉取 submodule repo，无需使用 gitlab oauth token
-- [更新文档说明](howto_dce5-docs.md)
+- [更新文档说明](docs/howto_dce5-docs.md)
 
 
 ## 06.10
