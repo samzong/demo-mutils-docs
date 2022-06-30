@@ -6,3 +6,7 @@
 	path = modules/insight
 	url = ../../engineering/insight/insight.git
 	branch = docsite
+[submodule "modules/mspider"]
+	path = modules/mspider
+	url = ../../mspider.git
+	branch = docsite
