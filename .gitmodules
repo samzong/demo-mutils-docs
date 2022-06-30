@@ -18,3 +18,7 @@
 	path = modules/amamba
 	url = ../../amamba.git
 	branch = docsite
+[submodule "modules/kubean"]
+	path = modules/kubean
+	url = ../../engineering/kubean.git
+	branch = hui.wu-gitpages
