@@ -1,3 +1,6 @@
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive # 拉取 Submodule 内容
+
 default:
   tags:
     - k8s
@@ -29,7 +32,7 @@ pages:
   script:
     - eval sed -i -e 's/yjXVPD6vyDFkC6fTsnWS/$GH_TOKEN/g' mkdocs.yml
     - apk add bash
-    - pip install mkdocs-multirepo-plugin jieba -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+    - pip install mkdocs-monorepo-plugin jieba -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
     - mkdocs build -d public # build to public path
   artifacts:
     paths:

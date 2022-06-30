@@ -16,6 +16,7 @@ theme:
     - content.code.annotate
 
 plugins:
+  - monorepo
   - search:
       separator: '[\\s\\u200b\\-]'
 
@@ -25,35 +26,6 @@ plugins:
       minify_css: true
       htmlmin_opts:
           remove_comments: true
-
-  - multirepo:
-      # (optional) tells multirepo to cleanup the temporary directory after site is built.
-      cleanup: true
-      repos:
-        - section: Kpanda
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/engineering/kpanda.git'
-          docs_dir: docs/honkit/zh/*
-        - section: ghippo
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/ghippo.git'
-          docs_dir: docs/honkit/zh/*
-        - section: Skoala
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/skoala.git?branch=main'
-          docs_dir: docs/honkit/zh_cn/*
-        - section: Insight
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/engineering/insight/insight.git?branch=main'
-          docs_dir: docs/book/zh/*
-        - section: mSpider
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/mspider.git?branch=main'
-          docs_dir: docs/honkit/zh/*
-        - section: Amamba
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/amamba.git?branch=main'
-          docs_dir: docs/honkit/zh/*
-        - section: MCamel
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/mcamel/mcamel-rabbitmq.git?branch=main'
-          docs_dir: docs/honkit/zh/*
-        - section: Product Research
-          import_url: 'https://oauth2:yjXVPD6vyDFkC6fTsnWS@gitlab.daocloud.cn/ndx/product/product-research-document.git?branch=master'
-          docs_dir: docs/*
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
@@ -106,3 +78,11 @@ markdown_extensions:
 
   - pymdownx.arithmatex:
       generic: true
+
+  
+# nav 文档站导航
+nav:
+  - Intro: index.md
+  - Getting Started: 01-mkdocs-material.md
+  - Skoala: '!include modules/skoala/docs/pages.yml'
+  - Insight: '!include modules/insight/docs/pages.yml'

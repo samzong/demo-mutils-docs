@@ -1,0 +1,10 @@
+[submodule "skoala"]
+	path = skoala
+	url = git@gitlab.daocloud.cn:ndx/skoala.git
+[submodule "modules/skoala"]
+	path = modules/skoala
+	url = git@gitlab.daocloud.cn:ndx/skoala.git
+[submodule "modules/insight"]
+	path = modules/insight
+	url = git@gitlab.daocloud.cn:ndx/engineering/insight/insight.git
+	branch = docsite
