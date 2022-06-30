@@ -30,7 +30,7 @@ pages:
   only:
     - master
   script:
-    - eval sed -i -e 's/yjXVPD6vyDFkC6fTsnWS/$GH_TOKEN/g' mkdocs.yml
+    # - eval sed -i -e 's/yjXVPD6vyDFkC6fTsnWS/$GH_TOKEN/g' mkdocs.yml # 不需要使用 token， 直接通过相对路径拉取
     - apk add bash
     - pip install mkdocs-monorepo-plugin jieba -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
     - mkdocs build -d public # build to public path
