@@ -91,3 +91,4 @@ nav:
   - 可观测配置: '!include modules/insight/docs/book/zh/pages.yml'
   - 服务网格: '!include modules/mspider/docs/honkit/zh/pages.yml'
   - 应用工作台: '!include modules/amamba/docs/honkit/zh/pages.yml'
+  - Kubean: '!include modules/kubean/docs/honkit/zh/pages.yml'
