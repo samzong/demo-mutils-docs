@@ -3,4 +3,5 @@ builds
 temp_dir
 .DS_Store
 _book/
-
+.idea/
+.vscode/

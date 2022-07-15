@@ -1,28 +1,18 @@
-[submodule "modules/skoala"]
-	path = modules/skoala
-	url = ../../skoala.git
-	branch = docsite
-[submodule "modules/insight"]
-	path = modules/insight
-	url = ../../engineering/insight/insight.git
-	branch = docsite
 [submodule "modules/mspider"]
 	path = modules/mspider
 	url = ../../mspider.git
-	branch = docsite
 [submodule "modules/kpanda"]
 	path = modules/kpanda
 	url = ../../engineering/kpanda.git
-	branch = docsite
-[submodule "modules/amamba"]
-	path = modules/amamba
-	url = ../../amamba.git
-	branch = docsite
-[submodule "modules/kubean"]
-	path = modules/kubean
-	url = ../../engineering/kubean.git
-	branch = hui.wu-gitpages
+[submodule "modules/insight"]
+	path = modules/insight
+	url = ../../engineering/insight/insight.git
 [submodule "modules/ghippo"]
 	path = modules/ghippo
 	url = ../../ghippo.git
-	branch = docsite
+[submodule "modules/skoala"]
+	path = modules/skoala
+	url = ../../skoala.git
+[submodule "modules/amamba"]
+	path = modules/amamba
+	url = ../../amamba.git

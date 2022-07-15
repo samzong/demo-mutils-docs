@@ -1,0 +1,111 @@
+site_name: DCE 5.0
+# site_dir: 'public/'
+copyright: Copyright &copy; 2016 - 2022 DaoCloud
+
+theme:
+  name: material
+  include_homepage_in_sidebar: true
+  language: 'zh'
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.code.annotate
+
+plugins:
+  - monorepo
+  - search:
+      separator: '[\\s\\u200b\\-]'
+
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+      htmlmin_opts:
+          remove_comments: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+  - extra/zoom_image.js
+
+extra_css:
+  - extra/custom.css
+
+extra:
+  alternate:
+  - link: /
+    name: zh - 简体中文
+    lang: zh
+  - link: /en/
+    name: en - English
+    lang: en
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - tables
+
+  - toc:
+      permalink: true
+      title: 导航
+      toc_depth: 5
+  
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - pymdownx.arithmatex:
+      generic: true
+
+  
+# nav 文档站导航
+nav:
+  - Home: ./
+  - 帮助文档:
+    - 产品介绍: index.md
+    - 快速入门: 01-mkdocs-material.md
+    - 安装手册: install.md
+    - 云容器管理: '!include modules/kpanda/docs/honkit/zh/pages.yml'
+  #  - 全局管理: '!include modules/ghippo/docs/honkit/zh/pages.yml'
+    - 微服务引擎: '!include modules/skoala/docs/honkit/zh_cn/pages.yml'
+    - 可观测配置: '!include modules/insight/docs/book/zh/pages.yml'
+    - 服务网格: '!include modules/mspider/docs/honkit/zh/pages.yml'
+  #  - 应用工作台: '!include modules/amamba/docs/honkit/zh/pages.yml'
+  #  - Kubean: '!include modules/kubean/docs/honkit/zh/pages.yml'
+  - 博客: ./
+  - 视频: ./
+  - 用户论坛: ./
+  - 开源社区: ./
+  - DaoCloud 官网: https://www.daocloud.io/
