@@ -1,5 +1,12 @@
 # Not Ready...
 
+## 07.15
+
+- 增加 支持多语言文档站能力，自动同步 文档分站 repo内英文文档，并支持语言切换
+- 增加 文档站镜像自动构建，当用户推送更新到master时，自动构建新的 docker image，并推送到远端仓库
+- 增加 iframe 嵌入 video 能力，自适应 youtube、bilibili 原生iframe链接
+  - 主要在 iframe 外围嵌套一层 <div class="responsive-video-container"> <iframe> </iframe> </div>
+
 ## 06.30
 
 - 更新 支持各种姿势的自定义目录能力
