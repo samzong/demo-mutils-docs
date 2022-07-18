@@ -123,13 +123,17 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 ### Video
 
-<figure class="mdx-video" markdown>
-  <div class="mdx-video__inner">
+- video from youtube
+
+<div class="responsive-video-container">
     <iframe src="https://streamable.com/e/yslhdu" allowfullscreen></iframe>
-  </div>
-  <figcaption markdown>
-  </figcaption>
-</figure>
+</div>
+
+- video from bilibili
+
+<div class="responsive-video-container">
+<iframe src="//player.bilibili.com/player.html?aid=470390464&bvid=BV1sT41137m6&cid=758894410&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+</div>
 
 ### Inner Table
 
@@ -246,27 +250,27 @@ Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
 
 === "Left"
 
-    | Method      | Description                          |
-    | ----------- | ------------------------------------ |
-    | `GET`       | :material-check:     Fetch resource  |
-    | `PUT`       | :material-check-all: Update resource |
-    | `DELETE`    | :material-close:     Delete resource |
+    | Method   | Description                          |
+    | -------- | ------------------------------------ |
+    | `GET`    | :material-check:     Fetch resource  |
+    | `PUT`    | :material-check-all: Update resource |
+    | `DELETE` | :material-close:     Delete resource |
 
 === "Center"
 
-    | Method      | Description                          |
-    | :---------: | :----------------------------------: |
-    | `GET`       | :material-check:     Fetch resource  |
-    | `PUT`       | :material-check-all: Update resource |
-    | `DELETE`    | :material-close:     Delete resource |
+    |  Method  |             Description              |
+    | :------: | :----------------------------------: |
+    |  `GET`   | :material-check:     Fetch resource  |
+    |  `PUT`   | :material-check-all: Update resource |
+    | `DELETE` | :material-close:     Delete resource |
 
 === "Right"
 
-    | Method      | Description                          |
-    | ----------: | -----------------------------------: |
-    | `GET`       | :material-check:     Fetch resource  |
-    | `PUT`       | :material-check-all: Update resource |
-    | `DELETE`    | :material-close:     Delete resource |
+    |   Method |                          Description |
+    | -------: | -----------------------------------: |
+    |    `GET` |  :material-check:     Fetch resource |
+    |    `PUT` | :material-check-all: Update resource |
+    | `DELETE` | :material-close:     Delete resource |
 
 
 ### Charts
