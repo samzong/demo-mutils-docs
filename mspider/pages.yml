@@ -1,0 +1,43 @@
+site_name: mspider
+docs_dir: ./
+nav:
+- 服务网格介绍: 
+  - 什么是服务网格: 01Intro/What'smSpider.md
+  - 服务网格功能总览: 01Intro/Features.md
+  - 服务网格优势: 01Intro/Benefits.md
+  - 适用场景: 01Intro/Scenarios.md
+  - 服务网格术语: 01Intro/Glossary.md
+- 服务网格管理: 
+  - 创建托管网格: 03UserGuide/servicemesh/createmanaged.md
+  - 创建专用网格: 03UserGuide/servicemesh/creatededicated.md
+  - 删除网格: 03UserGuide/servicemesh/delete.md
+  - 配置网格: 03UserGuide/servicemesh/configure.md
+- 服务管理: 03UserGuide/01ServiceList/README.md
+- 流量治理: 
+  - 虚拟服务: 03UserGuide/02TrafficGovernance/VirtualService.md
+  - 目标规则: 03UserGuide/02TrafficGovernance/TargetRules.md
+  - 网关规则: 03UserGuide/02TrafficGovernance/GatewayRules.md
+- 安全治理: 03UserGuide/05Security/README.md
+- 流量监控:
+  - 服务监控: 03UserGuide/06TrafficMonitor/ServiceMonitor.md
+  - 服务拓扑: 03UserGuide/06TrafficMonitor/ServiceTopology.md
+  - 服务指标: 03UserGuide/06TrafficMonitor/ServiceMetrics.md
+- 边车管理:
+  - 命名空间边车管理: 03UserGuide/07SidecarManagement/NamespaceSidecar.md
+  - 工作负载边车管理: 03UserGuide/07SidecarManagement/WorkloadSidecar.md
+  - 全局边车管理: 03UserGuide/07SidecarManagement/GlobalSidecar.md
+- 集群纳管: 03UserGuide/08ClusterManagement/README.md
+- 网关实例: 03UserGuide/09GatewayInstance/README.md
+- 网格配置: 
+  - 网格命名空间: 03UserGuide/10MeshConfiguration/MeshNamespace.md
+  - 系统组件管理: 03UserGuide/10MeshConfiguration/SystemComponents.md
+  - Istio 资源: 03UserGuide/10MeshConfiguration/IstioResources.md
+- 服务网格基础知识: 
+  - 流量治理: 06Reference/concepts/traffic.md
+  - 虚拟服务: 06Reference/concepts/virtual-service.md
+  - 目标规则: 06Reference/concepts/destination-rule.md
+  - 网关: 06Reference/concepts/gateway.md
+  - 服务入口: 06Reference/concepts/ingress.md
+  - 边车 Sidecar: 06Reference/concepts/sidecar.md
+  - 网格弹性和测试: 06Reference/concepts/test.md
+  

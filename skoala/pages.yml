@@ -1,0 +1,56 @@
+site_name: skoala
+docs_dir: ./
+nav:
+- 微服务治理介绍: 
+  - 概述: 01Intro/Overview.md
+  - 功能总览: 01Intro/Features.md
+  - 竞争优势: 01Intro/Advantages.md
+  - 组件版本: 01Intro/Components.md
+  - 适用场景: 01Intro/Scenarios.md
+  - 常见术语: 01Intro/Glossary.md
+- 选择工作空间: 02QuickStart/SelectWorkspace.md
+- 微服务引擎: 
+  - 注册中心管理:
+    - 托管注册中心: 03UserGuide/MicroserviceEngine/Registry/Create.md
+    - 接入注册中心: 03UserGuide/MicroserviceEngine/Registry/Integrate.md
+    - 移除注册中心: 03UserGuide/MicroserviceEngine/Registry/Remove.md
+  - 微服务命名空间:
+    - 创建微服务命名空间: 03UserGuide/MicroserviceEngine/Namespace/Create.md
+    - 删除微服务命名空间: 03UserGuide/MicroserviceEngine/Namespace/Delete.md
+  - 微服务管理:
+    - 添加微服务: 03UserGuide/MicroserviceEngine/MicroserviceManagement/Add.md
+    - 删除微服务: 03UserGuide/MicroserviceEngine/MicroserviceManagement/Delete.md
+    - 查看元数据: 03UserGuide/MicroserviceEngine/MicroserviceManagement/Metadata.md
+  - 微服务流量治理: 
+    - 流控规则: 03UserGuide/MicroserviceEngine/TrafficGovernance/TrafficControl.md
+    - 降级规则: 03UserGuide/MicroserviceEngine/TrafficGovernance/Degrade.md
+    - 热点规则: 03UserGuide/MicroserviceEngine/TrafficGovernance/Hotspot.md
+    - 系统规则: 03UserGuide/MicroserviceEngine/TrafficGovernance/System.md
+    - 授权规则: 03UserGuide/MicroserviceEngine/TrafficGovernance/Authorization.md
+    - 集群流控: 03UserGuide/MicroserviceEngine/TrafficGovernance/ClusterTrafficControl.md
+  - 微服务配置中心: 03UserGuide/MicroserviceEngine/Configuration/README.md
+  - 监控告警: 
+    - 业务监控: 03UserGuide/MicroserviceEngine/Monitor&Alert/MonitorService.md
+    - 资源监控: 03UserGuide/MicroserviceEngine/Monitor&Alert/MonitorManagedInstance.md
+  - 日志管理: 03UserGuide/MicroserviceEngine/Log.md
+  - 插件中心: 03UserGuide/MicroserviceEngine/PluginCenter.md  
+- 微服务网关: 
+  - 网关管理: 
+    - 创建网关: 03UserGuide/MicroserviceGateway/Gateway/Create.md
+    - 诊断网关: 03UserGuide/MicroserviceGateway/Gateway/Diagnose.md
+    - 删除网关: 03UserGuide/MicroserviceGateway/Gateway/Delete.md
+  - 服务管理: 
+    - 添加服务: 03UserGuide/MicroserviceGateway/Service/Add.md
+    - 删除服务: 03UserGuide/MicroserviceGateway/Service/Delete.md
+    - 管理服务来源: 03UserGuide/MicroserviceGateway/Service/Sources.md
+  - API 管理: 
+    - 添加 API: 03UserGuide/MicroserviceGateway/API/Add.md
+    - 移除 API: 03UserGuide/MicroserviceGateway/API/Delete.md
+    - 配置 API 策略: 03UserGuide/MicroserviceGateway/API/Policy.md
+  - 监控告警: 03UserGuide/MicroserviceGateway/Monitor&Alert.md
+  - 日志管理: 03UserGuide/MicroserviceGateway/Log.md/
+  - 插件中心: 03UserGuide/MicroserviceGateway/PluginCenter.md
+  - 域名管理: 03UserGuide/MicroserviceGateway/Domain.md
+- 更新与升级: 03UserGuide/Update.md
+- 微服务基础知识: 06Reference/Concepts.md
+  

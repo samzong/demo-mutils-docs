@@ -1,0 +1,43 @@
+site_name: mspider
+docs_dir: ./
+nav:
+- Introduction to Service Mesh: 
+  - What is Service Mesh: 01Intro/What'smSpider.md
+  - Features: 01Intro/Features.md
+  - Benefits: 01Intro/Benefits.md
+  - Scenarios: 01Intro/Scenarios.md
+  - Glossary: 01Intro/Glossary.md
+- Manage Your Mesh: 
+  - Create Managed Mesh: 03UserGuide/servicemesh/createmanaged.md
+  - Create Dedicated Mesh: 03UserGuide/servicemesh/creatededicated.md
+  - Delete Meash: 03UserGuide/servicemesh/delete.md
+  - Configure Mesh: 03UserGuide/servicemesh/configure.md
+- Service Management: 03UserGuide/01ServiceList/README.md
+- Traffic Governance: 
+  - Virtual Service: 03UserGuide/02TrafficGovernance/VirtualService.md
+  - Destination Rules: 03UserGuide/02TrafficGovernance/TargetRules.md
+  - Gateway Rules: 03UserGuide/02TrafficGovernance/GatewayRules.md
+- Security Governance: 03UserGuide/05Security/README.md
+- Traffic Dashboard:
+  - Service Monitor: 03UserGuide/06TrafficMonitor/ServiceMonitor.md
+  - Service Topology: 03UserGuide/06TrafficMonitor/ServiceTopology.md
+  - Service Metrics: 03UserGuide/06TrafficMonitor/ServiceMetrics.md
+- Sidecar Management:
+  - Namespace Sidecars: 03UserGuide/07SidecarManagement/NamespaceSidecar.md
+  - Workload Sidecars: 03UserGuide/07SidecarManagement/WorkloadSidecar.md
+  - Global Sidecars: 03UserGuide/07SidecarManagement/GlobalSidecar.md
+- Cluster Management: 03UserGuide/08ClusterManagement/README.md
+- Gateway Instance: 03UserGuide/09GatewayInstance/README.md
+- Mesh Configuration: 
+  - Mesh Namespace: 03UserGuide/10MeshConfiguration/MeshNamespace.md
+  - System Components: 03UserGuide/10MeshConfiguration/SystemComponents.md
+  - Istio Resources: 03UserGuide/10MeshConfiguration/IstioResources.md
+- Mesh Concepts: 
+  - Traffic Governance: 06Reference/concepts/traffic.md
+  - Virtual Service: 06Reference/concepts/virtual-service.md
+  - Destination Rule: 06Reference/concepts/destination-rule.md
+  - Gateway: 06Reference/concepts/gateway.md
+  - Service Ingress: 06Reference/concepts/ingress.md
+  - Sidecar: 06Reference/concepts/sidecar.md
+  - Scalability: 06Reference/concepts/test.md
+  

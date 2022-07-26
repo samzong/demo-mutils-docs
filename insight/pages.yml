@@ -1,0 +1,30 @@
+site_name: insight
+docs_dir: ./
+nav:
+- 产品介绍:
+  - 什么是 Insight: 03ProductBrief/WhatisKInsight.md
+  - 功能说明: 03ProductBrief/Features.md
+  - 产品架构: 03ProductBrief/architecture.md
+  - 常见术语: 03ProductBrief/glossary.md
+- 操作指南: 
+  - 概览: 06UserGuide/overview.md
+  - 仪表盘: 06UserGuide/02dashboard.md
+  - 场景监控: 
+    - 集群监控: 06UserGuide/03scenarioinsight/clusterinsight.md
+    - 节点监控: 06UserGuide/03scenarioinsight/nodeinsight.md
+    - 容器监控: 06UserGuide/03scenarioinsight/containerinsight.md
+    - 服务监控: 06UserGuide/03scenarioinsight/serviceinsight.md
+  - 数据查询: 
+    - 日志查询: 06UserGuide/04dataquery/logquery.md
+    - 指标查询: 06UserGuide/04dataquery/metricquery.md
+    - 链路查询: 06UserGuide/04dataquery/tracequery.md
+  - 告警中心: 
+    - 告警规则: 06UserGuide/05alertcenter/alertrule.md
+    - 通知配置: 06UserGuide/05alertcenter/message.md
+    - 消息模板: 06UserGuide/05alertcenter/messagetemplate.md
+  - 数据采集: 06UserGuide/07dataacquision.md
+- 可观测基本概念: 
+  - 指标类型: concepts/metrics.md
+  - 任务和实例: concepts/job-instance.md
+  - 数据模型: concepts/models.md
+  - 数据查询语言: concepts/promql.md

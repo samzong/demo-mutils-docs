@@ -1,0 +1,41 @@
+site_name: kpanda
+docs_dir: ./
+nav:
+- Introduction to Container Management: 
+  - What is Container Management: 03ProductBrief/WhatisKPanda.md
+  - Features: 03ProductBrief/Features.md
+  - Benefits: 03ProductBrief/Benefits.md
+  - Scenarios: 03ProductBrief/Scenarios.md
+  - Glossary: 03ProductBrief/Concepts.md
+- Manage Clusters: 
+  - Create a Cluster: 07UserGuide/Clusters/CreateCluster.md
+  - Join a Cluster: 07UserGuide/Clusters/JoinACluster.md
+  - Explore Cluster with kubectl: 07UserGuide/Clusters/clusterwithcert.md
+  - Cluster Roles: 07UserGuide/Clusters/ClusterRole.md
+  - Cluster Status: 07UserGuide/Clusters/ClusterStatus.md
+- Manage Nodes: 07UserGuide/Nodes/README.md
+- Workloads: 
+  - Create Deployment: 07UserGuide/Workloads/CreateDeploymentByImage.md
+  - Create StatefulSet: 07UserGuide/Workloads/CreateStatefulSetByImage.md
+  - Create DaemonSet: 07UserGuide/Workloads/CreateDaemonSetByImage.md
+  - Create CronJob: 07UserGuide/Workloads/CreateCronJobByImage.md
+  - Create Job: 07UserGuide/Workloads/CreateJobByImage.md
+  - Configure Workload Parameters: 
+    - Job Parameters: 07UserGuide/Workloads/PodConfig/JobParameters.md
+    - Lifecycle: 07UserGuide/Workloads/PodConfig/lifescycle.md
+    - Environment Variables: 07UserGuide/Workloads/PodConfig/EnvironmentVariables.md
+    - Health Check: 07UserGuide/Workloads/PodConfig/healthcheck.md
+    - Scheduling Cluster: 07UserGuide/Workloads/PodConfig/SchedulingPolicy.md
+- Service and Ingress: 
+  - Create Service: 07UserGuide/ServicesandRoutes/CreatingServices.md
+  - Create Ingress: 07UserGuide/ServicesandRoutes/CreatingIngress.md
+- Custom Resource (CR): 07UserGuide/CustomResources/README.md
+- Manage Storage: 07UserGuide/Storage/README.md
+- ConfigMaps and Secrets: 
+  - Create ConfigMap: 07UserGuide/ConfigMapsandSecrets/CreatConfigMap.md
+  - Use ConfigMap: 07UserGuide/ConfigMapsandSecrets/UsedConfigMap.md
+- Namespaces: 07UserGuide/Namespaces/README.md
+- Operation & Maintenance: 07UserGuide/OperationandMaintenance/README.md
+- Autoscaling: 07UserGuide/Autoscaling/README.md
+- Manage Permissions: 07UserGuide/Permissions/README.md
+- Manage Policies: 07UserGuide/Policies/README.md
